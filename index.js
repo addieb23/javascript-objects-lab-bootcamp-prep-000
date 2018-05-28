@@ -8,4 +8,7 @@ function updateObjectWithKeyAndValue(recipes, key, value){
   return recipes
 }
 
-//function
+function destructivelyUpdateObjectWithKeyAndValue(recipes, key, value){
+recipes[key] = value;
+return recipes
+}
