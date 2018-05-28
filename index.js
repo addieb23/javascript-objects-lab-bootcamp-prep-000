@@ -3,9 +3,9 @@ var recipes = {
   lunch: 'pbandj sandwich'
 }
 
-function updateObjectWithKeyAndValue(recipes, key, value){
-  recipes[key] = value;
-  return recipes
+function updateObjectWithKeyAndValue(object, key, value){
+  object[key] = value;
+  return object
 }
 
 //function
